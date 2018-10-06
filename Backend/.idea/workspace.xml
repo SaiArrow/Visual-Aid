@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d298624-32ee-4e48-8ab4-a9563047a312" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-    </list>
+    <list default="true" id="3d298624-32ee-4e48-8ab4-a9563047a312" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +12,7 @@
     <session id="-1531160348">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="2" />
@@ -310,7 +305,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="-11" width="1853" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15371992" />
       <window_info id="Structure" order="1" weight="0.25" />
