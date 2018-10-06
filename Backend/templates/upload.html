@@ -6,6 +6,11 @@
          <input type = "file" name = "file" />
          <input type = "submit"/>
       </form>
+      <ul>
+          {% for file in files %}
+            <li><a href="./uploads/{{ file }}">{{ file }}</a></li>
+          {% endfor %}
+      </ul>
 
    </body>
 </html>

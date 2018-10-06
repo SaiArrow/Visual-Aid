@@ -24,7 +24,7 @@ def upload_file():
     if request.method == 'POST':
         f = request.files['image']
         f.save(os.path.join(app.config['UPLOAD_FOLDER'], f.filename))
-        # message = run_inference.mess(f.filename)     #image sent for testing
+        #message = run_inference.mess(f.filename)     #image sent for testing
         message = "Hello world!"  # dummy caption
         print(message)
         return message
