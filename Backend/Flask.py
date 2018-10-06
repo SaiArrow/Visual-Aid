@@ -25,7 +25,7 @@ def upload_file():
         f = request.files['image']
         f.save(os.path.join(app.config['UPLOAD_FOLDER'], f.filename))
         #message = run_inference.mess(f.filename)     #image sent for testing
-        message = "Hello world!"  # dummy caption
+        message = "The girl is drinking water in a room | the lady is drinking wine from a bottle | the lady is drinking water in a room"  # dummy caption
         print(message)
         return message
 

@@ -35,7 +35,7 @@ def mess(filename):
   with g.as_default():
     model = inference_wrapper.InferenceWrapper()
     restore_fn = model.build_graph_from_config(configuration.ModelConfig(),
-                                               "E:/models-master/models-master/research/im2txt/im2txt/model1.ckpt-3000000")
+                                               "model.ckpt-2000000")
   g.finalize()
 
   # Create the vocabulary.

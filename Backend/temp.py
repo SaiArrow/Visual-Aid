@@ -1,5 +1,5 @@
-OLD_CHECKPOINT_FILE = "model.ckpt-3000000"
-NEW_CHECKPOINT_FILE = "E:/models-master/models-master/research/im2txt/im2txt/model1.ckpt-3000000"
+OLD_CHECKPOINT_FILE = "model.ckpt-2000000"
+NEW_CHECKPOINT_FILE = "model.ckpt-2000000"
 
 import tensorflow as tf
 vars_to_rename = {
